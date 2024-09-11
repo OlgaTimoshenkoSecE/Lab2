@@ -16,7 +16,7 @@ main {
 }
 .container{
     display:flex;
-    justify-content:center;
+    justify-content:space-around;
     align-items:center;
     background-color: beige;
     margin:20px;
@@ -39,7 +39,6 @@ main {
     height:50px;
     border:solid;
     padding:1em;
-    text-wrap: nowrap;
 }
 .item-3{
     background-color: wheat;
