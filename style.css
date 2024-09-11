@@ -16,24 +16,46 @@ main {
 }
 .container{
     display:flex;
-    justify-content:space-around;
-    background-color: white;
+    justify-content:center;
+    align-items:center;
+    background-color: beige;
     margin:20px;
     gap:1em;
 }
 .item-1{
     background-color: wheat;
     flex-grow:1;
+    text-align:center;
+    width:50px;
+    height:50px;
+    border:solid;
+    padding:1em;
 }
 .item-2{
+    text-align:center;
     background-color: wheat;
     flex-grow:1;
+    width:50px;
+    height:50px;
+    border:solid;
+    padding:1em;
+    text-wrap: nowrap;
 }
 .item-3{
     background-color: wheat;
     flex-grow:1;
+    text-align:center;
+    width:50px;
+    height:50px;
+    border:solid;
+    padding:1em;
 }
 .item-4{
     background-color: wheat;
     flex-grow:1;
+    text-align:center;
+    width:50px;
+    height:50px;
+    border:solid;
+    padding:1em;
 }
